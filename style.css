@@ -10,6 +10,13 @@ body {
 
 #header {
     grid-area: 1 / 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+#header > * {
+    border: 2px solid black;
 }
 
 #sidebar {

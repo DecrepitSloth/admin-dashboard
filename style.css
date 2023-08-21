@@ -26,7 +26,7 @@ body {
     grid-template-columns: 1fr 3fr;
     grid-auto-rows: 50px;
     align-items: center;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
     align-content: center;
 }
@@ -37,8 +37,17 @@ body {
     filter: invert(1);
 }
 
+.directory div, .tools div {
+    padding-top: 4px;
+}
+
 #sidebar .title img {
     width: 50px;
+}
+
+#sidebar .title div {
+    font-size: 30px;
+    padding-top: 4px;
 }
 
 #content {

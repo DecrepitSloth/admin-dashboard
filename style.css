@@ -41,6 +41,21 @@ body {
     height: 35px; 
 }
 
+.user-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.user-info img:nth-child(1){
+    width: 25px;
+}
+
+.user-info img:nth-child(2) {
+    height: 80px;
+}
+
+
+
 #sidebar {
     background-color: #1992d4;
     grid-area: 1 / 1 / 3 / 2;

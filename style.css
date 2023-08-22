@@ -11,12 +11,34 @@ body {
 #header {
     grid-area: 1 / 2;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 2fr 3fr;
 }
 
 #header > * {
     border: 2px solid black;
+}
+
+.searchbar {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.searchbar img {
+    width: 30px;
+    justify-self: end;
+    margin-right: 2rem;
+}
+
+#search {
+    appearance: none;
+    background-color: #e2e8f0;
+    box-sizing: border-box;
+    border-radius: 17px;
+    border: none;
+    width: clamp(300px, 90%, 700px);
+    height: 35px; 
 }
 
 #sidebar {

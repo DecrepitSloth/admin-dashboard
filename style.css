@@ -51,10 +51,10 @@ body {
 }
 
 .user-info img:nth-child(2) {
-    height: 80px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
 }
-
-
 
 #sidebar {
     background-color: #1992d4;

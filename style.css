@@ -146,5 +146,32 @@ body {
 
 #content {
     background-color: #e2e8f0;
-    grid-area: 2 / 2;
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+}
+
+#content * {
+    border: 2px solid black;
+}
+
+.popular {
+    display: grid;
+}
+
+.popular > div {
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    gap: 10px;
+}
+
+.announcements > div:nth-child(1) {
+    align-self: end;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.trending > div:nth-child(1) {
+    align-self: end;
+    font-size: larger;
+    font-weight: bold;
 }

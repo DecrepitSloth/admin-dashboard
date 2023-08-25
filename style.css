@@ -162,6 +162,8 @@ body {
     display: grid;
     grid-template-rows: 1fr 6fr;
     gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .announcements > div:nth-child(1) {
@@ -174,4 +176,30 @@ body {
     align-self: end;
     font-size: larger;
     font-weight: bold;
+}
+
+.announcement-list {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.announcement-list > div {
+    width: 250px;
+}
+
+.trending-list {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.trending-list > div {
+    width: 250px;
 }

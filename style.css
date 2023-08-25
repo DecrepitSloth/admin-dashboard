@@ -225,3 +225,23 @@ body {
 .trending-list > div {
     width: 250px;
 }
+
+.trending-list * {
+    border: 1px solid black;
+}
+
+.trending-list img {
+    align-self: center;
+    justify-self: center;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.trending-1, .trending-2, .trending-3, .trending-4 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.trending-profile-1, .trending-profile-2, .trending-profile-3, .trending-profile-4 {
+    display: grid;
+}

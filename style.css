@@ -95,12 +95,14 @@ body {
 }
 
 .project-manipulation > button {
-    width: 120px;
-    height: 40px;
-    border-radius: 20px;
+    width: 130px;
+    height: 45px;
+    border-radius: 30px;
     border: none;
     background: #1992d4;
     color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 #sidebar {

@@ -12,11 +12,7 @@ body {
     grid-area: 1 / 2;
     display: grid;
     grid-template-columns: 4fr 2fr;
-    grid-template-rows: 3fr 4fr;
-}
-
-#header > * {
-    border: 2px solid black;
+    grid-template-rows: 1fr 1fr;
 }
 
 .searchbar {
@@ -64,9 +60,32 @@ body {
     font-weight: bolder;
 }
 
+.user-identifier {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 20px;
+    align-content: start;
+}
+
 .user-identifier img {
     width: 80px;
     border-radius: 50px;
+    justify-self: end;
+}
+
+.user-greeting {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.user-greeting div:nth-child(1) {
+    align-self: end;
+}
+
+.user-greeting div:nth-child(2) {
+    font-weight: bold;
+    font-size: x-large;
 }
 
 #sidebar {

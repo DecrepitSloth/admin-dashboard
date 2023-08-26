@@ -211,6 +211,7 @@ body {
 
 .announcement-list > div > div:nth-child(2) {
     font-size: smaller;
+    color: gray;
 }
 
 .trending-list {
@@ -241,4 +242,9 @@ body {
 .trending-profile-1, .trending-profile-2, .trending-profile-3, .trending-profile-4 {
     display: grid;
     align-content: center;
+}
+
+.trending-list > div > div > div:nth-child(2) {
+    color: gray;
+    font-size: small;
 }

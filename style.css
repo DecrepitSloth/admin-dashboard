@@ -185,10 +185,12 @@ body {
 .project-list > div > div:nth-child(1) {
     align-self: end;
     font-weight: bold;
+    margin-left: 20px;
 }
 
 .project-list > div > div:nth-child(2) {
     color: gray;
+    margin-left: 20px;
 }
 
 .project-list > div > div:nth-child(3) {

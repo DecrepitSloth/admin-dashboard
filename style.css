@@ -173,9 +173,26 @@ body {
 }
 
 .project-list > div {
+    height: 200px;
+    display: grid;
+    grid-template-rows: 2fr 3fr 2fr;
     background-color: white;
     width: 450px;
     border-radius: 10px;
+    border-left: 10px solid rgb(255, 208, 0);
+}
+
+.project-list > div > div {
+    border: 1px solid black;
+}
+
+.project-list > div > div:nth-child(1) {
+    align-self: end;
+    font-weight: bold;
+}
+
+.project-list > div > div:nth-child(2) {
+    color: gray;
 }
 
 .popular {

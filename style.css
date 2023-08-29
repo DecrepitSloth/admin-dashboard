@@ -150,9 +150,30 @@ body {
     grid-template-columns: 3fr 1fr; 
 }
 
+.projects {
+    grid-template-rows: 1fr 13fr;
+    display: grid;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.projects > div:nth-child(1) {
+    align-self: end;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
 .popular {
     display: grid;
     align-content: center;
+    height: 720px;
 }
 
 .popular > div {
